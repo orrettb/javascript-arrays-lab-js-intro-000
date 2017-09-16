@@ -19,3 +19,6 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name){
   appendkittens(name);
 }
+function prependKitten(name){
+  kittens.unshift(name);
+}
